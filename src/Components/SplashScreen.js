@@ -41,8 +41,8 @@ function SplashScreen({ onComplete }) {
         {
           showCountDownTimer && (
             <CountDown
-              hoursMinSecs={calculateTimeRemaining(new Date('2023-05-14T00:00:00').getTime())}
-              // hoursMinSecs={{ hours: 0, minutes: 0, seconds: 5 }}
+              // hoursMinSecs={calculateTimeRemaining(new Date('2023-05-14T00:00:00').getTime())}
+              hoursMinSecs={{ hours: 0, minutes: 0, seconds: 5 }}
               onComplete={() => {
                 setShowCountDownTimer(false);
                 setShowGiftBoxAnimation(true);

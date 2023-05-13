@@ -4,7 +4,7 @@ import Frame from '../Frame.svg';
 
 export default function GiftBoxLogin({ onLogin }) {
 
-  const age = 10;
+  const age = 24;
   const [animate, setAnimate] = useState(false);
   const [popUpCount, setPopUpCount] = useState(0);
 
